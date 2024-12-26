@@ -1,0 +1,92 @@
+/*scrollbar*/
+/*width*/
+::-webkit-scrollbar{
+    width: 15px;
+}
+/*track*/
+::-webkit-scrollbar-track {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 100px;
+}
+/*button*/
+::-webkit-scrollbar-button{
+    box-shadow: inset 0 10px #d0368a;
+    border-radius: 10px;
+}
+/*thumb*/
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(180deg, #d0368a 0%, #708ad4 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+  border-radius: 100px;
+}
+/*hover*/
+::-webkit-scrollbar-thumb:hover {
+  background: #708ad4; 
+}
+/*scroll-spy start*/
+
+/*scroll-spy end*/
+/*slider 1 start*/
+
+.c_ind {
+    right: 80%;
+    bottom: 65%;
+    left: -11%;
+    display: block;
+}
+.c_ind [data-bs-target] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: red;
+    border-top: 5px solid transparent;
+    border-left: 10px solid;
+    border-bottom: 5px solid transparent;
+}
+.c_c_p {
+    left: 88%;
+}
+.c_c_n {
+    right: 2%;
+}
+.c_c_p, .c_c_n { 
+    top: 84%;
+    width: 5%;
+    opacity: 1;
+}
+
+/*slider 1 end*/
+
+/*slider 2 start*/
+
+.banner{
+    background-image: url(../images/sky5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.c_ind2 [data-bs-target] {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    padding: 0;
+}
+.slider{
+    padding: 70px;
+    background-color: rgba(1, 1, 1, .5);
+    color: white;
+}
+.slider h1{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.slider p{
+    font-size: 20px;
+    margin: 30px 0;
+}
+.slider button{
+    padding: 10px;
+    border-radius: 10%;
+}
+/*slider 2 end*/
